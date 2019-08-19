@@ -1,2 +1,1 @@
-# LMS-sound-filtering-by-Verilog
-LMS sound filtering by Verilog
+# to be continued
