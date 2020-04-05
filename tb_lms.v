@@ -36,19 +36,13 @@ lms_inst
 	.clk	(clk	),
 	.rst_n	(rst_n	),
 	
+	.en 	(1'b1	),
 	.din		(d		),
 	.xin		(x		),
 	.u		(4'd6	),
 	.yout		(y		),
 	.err    	(err    ),
 	.update		()
-);
-
-test_signal s_inst
-(	
-.clk(clk),
-.in(signal),
-.out(out)
 );
 
 parameter datalen = 32000;
